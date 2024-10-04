@@ -1,0 +1,1 @@
+# QAguru_HW_6_puthon_II
