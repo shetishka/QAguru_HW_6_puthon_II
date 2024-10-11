@@ -90,7 +90,7 @@ def test_find_suitable_user():
 
 def redact_function_name_and_arg_text(func, *args):
     func_name = func.__name__.replace('_', ' ').title()
-    func_args = ", ".join([*args])
+    func_args = ", ".join(args)
     print(f"{func_name} [{func_args}]")
     return f"{func_name} [{func_args}]"
 
